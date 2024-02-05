@@ -1,0 +1,77 @@
+/* .todo-input{
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    width: 300px;
+    height: 35px;
+    outline-width: 10px;
+    border-radius: 6px;
+    border-width: 1px;
+    width: 75%;
+}
+
+.todo-input::placeholder{
+    font-family: 'Quicksand', sans-serif;
+    color: #C5C5C5;
+    font-size: 20px;
+}
+
+.todo-input:focus{
+    outline-color: #33d659;
+} */
+
+form{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+
+}
+
+form label{
+    font-size: 28px;
+}
+
+textarea{
+    width: 70%;
+    font-family: 'Quicksand', sans-serif;
+    border: 2px solid #C5C5C5;
+    border-radius: 5px;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+}
+
+textarea:focus{
+    outline-color: #33d659;
+}
+
+.TodoForm-buttonContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 160px;
+}
+
+.TodoForm-button--cancel{
+    background-color: #c70202;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    padding: 4px;
+    border: none;
+    border-radius: 5px;
+}
+
+.TodoForm-button--add{
+    background-color: #33d659;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    padding: 4px;
+    border: none;
+    border-radius: 5px;
+}

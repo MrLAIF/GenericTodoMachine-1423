@@ -1,0 +1,25 @@
+.button{
+    position: absolute;
+    background-color: transparent;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    cursor: pointer;
+    transform: rotate(0);
+    bottom: 28px;
+    transition: 0.3s ease
+}
+
+.button img{
+    width: 60px;
+    height: 60px;
+}
+
+.button:hover{
+    transform: rotate(180deg);
+}

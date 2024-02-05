@@ -1,0 +1,20 @@
+.todo-search-input{
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    width: 75%;
+    height: 48px;
+    outline-width: 10px;
+    border-radius: 6px;
+    border-width: 1px;
+    
+}
+
+.todo-search-input::placeholder{
+    font-family: 'Quicksand', sans-serif;
+    color: #C5C5C5;
+    font-size: 20px;
+}
+
+.todo-search-input:focus{
+    outline-color: #33d659;
+}

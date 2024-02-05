@@ -1,0 +1,65 @@
+.todo-item{
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    gap: 20px;
+}
+
+.check-button{
+    background-color: transparent;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    cursor: pointer;
+
+    transform: rotate(0);
+    transition: 0.3s ease
+}
+
+.check-button img{
+    width: 36px;
+    height: 36px;
+}
+
+.delete-button{
+    background-color: transparent;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    cursor: pointer;
+
+    transform: rotate(0);
+    transition: 0.3s ease
+}
+
+.delete-button img{
+    width: 36px;
+    height: 36px;
+}
+
+.todo-text{
+    font-size: 24px;
+}
+
+.todo-text--completed{
+    text-decoration: line-through;
+    color: #C5C5C5;
+}
+
+.check-button:hover{
+    transform: scale(1.2);
+}
+
+.delete-button:hover{
+    transform: scale(1.2);
+}
