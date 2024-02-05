@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/GenericTodoMachine-1423/static/css/main.6877cad3.css",
+    "main.js": "/GenericTodoMachine-1423/static/js/main.a6e2c750.js",
+    "index.html": "/GenericTodoMachine-1423/index.html",
+    "main.6877cad3.css.map": "/GenericTodoMachine-1423/static/css/main.6877cad3.css.map",
+    "main.a6e2c750.js.map": "/GenericTodoMachine-1423/static/js/main.a6e2c750.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6877cad3.css",
+    "static/js/main.a6e2c750.js"
+  ]
+}
